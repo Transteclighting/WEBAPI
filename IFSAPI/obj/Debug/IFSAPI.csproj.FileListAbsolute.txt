@@ -1,0 +1,161 @@
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\ApplicationInsights.config
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\roslyn\csc.exe
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\roslyn\vbc.exe
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\roslyn\VBCSCompiler.exe
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\IFSAPI.dll.config
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\IFSAPI.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\IFSAPI.pdb
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Antlr3.Runtime.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\AspNet.ScriptManager.jQuery.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\EntityFramework.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\EntityFramework.SqlServer.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AI.Web.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.ApplicationInsights.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.Google.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Newtonsoft.Json.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Owin.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\System.Web.Optimization.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\System.Web.Providers.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\WebGrease.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AI.Web.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.ApplicationInsights.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\System.Web.Optimization.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Antlr3.Runtime.pdb
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Newtonsoft.Json.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\EntityFramework.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\EntityFramework.SqlServer.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\System.Web.Providers.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.Google.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\obj\Debug\IFSAPI.csprojResolveAssemblyReference.cache
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\obj\Debug\IFSAPI.dll
+D:\Local\Tel\IFSDBConnect\IFSAPI\IFSAPI\obj\Debug\IFSAPI.pdb
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\ApplicationInsights.config
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\roslyn\csc.exe
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\roslyn\vbc.exe
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\roslyn\VBCSCompiler.exe
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\IFSAPI.dll.config
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\IFSAPI.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\IFSAPI.pdb
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Antlr3.Runtime.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\AspNet.ScriptManager.jQuery.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\EntityFramework.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\EntityFramework.SqlServer.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AI.Web.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.ApplicationInsights.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.Google.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Newtonsoft.Json.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Owin.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\System.Web.Optimization.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\System.Web.Providers.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\WebGrease.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AI.Web.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.ApplicationInsights.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\System.Web.Optimization.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Antlr3.Runtime.pdb
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Newtonsoft.Json.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\EntityFramework.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\EntityFramework.SqlServer.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\System.Web.Providers.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.Google.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\obj\Debug\IFSAPI.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\obj\Debug\IFSAPI.pdb
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\CSharper.dll
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\CSharper.pdb
+D:\Local\Tel\Working Folder IFS API\IFSAPI\bin\CSharper.xml
+D:\Local\Tel\Working Folder IFS API\IFSAPI\obj\Debug\IFSAPI.csprojResolveAssemblyReference.cache
