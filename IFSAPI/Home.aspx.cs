@@ -35,10 +35,10 @@ namespace IFSAPI
 
 
                 /**********Post Api*************/
-                string msg0 = Post_NormalInvoice("Data Type : Normal Invoice");
-                lbl_normalinvoice.Text = msg0;
+                //string msg0 = Post_NormalInvoice("Data Type : Normal Invoice");
+                //lbl_normalinvoice.Text = msg0;
 
-                //string msg1 = Post_Replacement("Data Type : Replacement (Issued)");
+                //string msg1 = Post_Replacement_Issued("Data Type : Replacement (Issued)");
                 //lbl_replaceissue.Text = msg1;
 
                 //string msg2 = Post_TradePromotion("Data Type : Trade Promotion");
@@ -50,8 +50,8 @@ namespace IFSAPI
                 //string msg4 = Post_NormalInvoice_TD("Data Type : Normal (TD)");
                 //lbl_tdnormalinvoice.Text = msg4;
 
-                //string msg5 = Post_SalesOrder("Data Type : Sales Order (Primary)");
-                //lbl_SalesOrder.Text = msg5;
+                string msg5 = Post_SalesOrder("Data Type : Sales Order (Primary)");
+                lbl_SalesOrder.Text = msg5;
 
                 //string msg6 = Post_Replacement_Claim("Data Type : Replacement (Claim)");
                 //lbl_Replaceclaim.Text = msg6;
@@ -300,9 +300,9 @@ namespace IFSAPI
             left outer join t_SalesOrder f on a.OrderID=f.OrderID
             where IFSIndentType<>'Reverse' and a.InvoiceStatus<>3
             and a.InvoiceTypeID  in (15)
-            and InvoiceDate between '01-Nov-2022' and '08-Nov-2022'
-            and InvoiceDate<'08-Nov-2022'   and ChannelID =2
-            and InvoiceNo=120158829
+            and InvoiceDate between '08-Nov-2022' and '10-Nov-2022'
+            and InvoiceDate<'10-Nov-2022'   and ChannelID =2
+            --and InvoiceNo=120158829
             order by RefOrderNo";
             DataTable dt = new DataTable();
             using (SqlConnection con = new SqlConnection(ConnectionString))
@@ -333,9 +333,9 @@ namespace IFSAPI
             left outer join t_SalesOrder f on a.OrderID=f.OrderID
             where IFSIndentType<>'Reverse' and a.InvoiceStatus<>3
             and a.InvoiceTypeID  in (17)
-            and InvoiceDate between '01-Nov-2022' and '08-Nov-2022'
-            and InvoiceDate<'08-Nov-2022'   and ChannelID =2
-            and InvoiceNo=120159040
+            and InvoiceDate between '08-Nov-2022' and '10-Nov-2022'
+            and InvoiceDate<'10-Nov-2022'   and ChannelID =2
+            --and InvoiceNo=120159040
             order by RefOrderNo";
             DataTable dt = new DataTable();
             using (SqlConnection con = new SqlConnection(ConnectionString))
@@ -399,9 +399,9 @@ namespace IFSAPI
             left outer join t_SalesOrder f on a.OrderID=f.OrderID
             where IFSIndentType<>'Reverse' and a.InvoiceStatus<>3
             and a.InvoiceTypeID  in (3)
-            and InvoiceDate between '01-Nov-2022' and '08-Nov-2022'
-            and InvoiceDate<'08-Nov-2022'   and ChannelID =2
-            and InvoiceNo=120158828
+            and InvoiceDate between '08-Nov-2022' and '10-Nov-2022'
+            and InvoiceDate<'10-Nov-2022'   and ChannelID =2
+            --and InvoiceNo=120158828
             order by RefOrderNo";
             DataTable dt = new DataTable();
             using (SqlConnection con = new SqlConnection(ConnectionString))
@@ -420,8 +420,9 @@ namespace IFSAPI
         public DataTable NormalInvoice(int RefforderNo)
         {
             //  RefforderNo = 140490;
+            //InvoiceNo as RefOrderNo
             string sql = @"
-            Select a.InvoiceNo RefOrderNo,'BLL1' as Site,
+            Select  InvoiceNo as RefOrderNo,'BLL1' as Site,
             CustomerCode CustomerNo,TerritoryID SalesmanCode,0 PayTermId,a.Remarks,ProductCode PartNo,
             0 DbStock,0 BufferStock,Quantity+FreeQty OrderQty,0 LastWeekSecSales,0 MtdSecondarySales,
             IFSIndentType IndentType
@@ -433,9 +434,9 @@ namespace IFSAPI
             left outer join t_SalesOrder f on a.OrderID=f.OrderID
             where IFSIndentType<>'Reverse' and a.InvoiceStatus<>3
             and a.InvoiceTypeID not in (3,15,17)
-            and InvoiceDate between '04-Nov-2022' and '06-Nov-2022'
-            and InvoiceDate<'06-Nov-2022'   and ChannelID =2            
-            --and InvoiceNo=120158838
+            and InvoiceDate between '06-Nov-2022' and '08-Nov-2022' and InvoiceDate<'08-Nov-2022'
+            and ChannelID =2            
+            --and InvoiceNo=120158924
             order by RefOrderNo";
             DataTable dt = new DataTable();
             using (SqlConnection con = new SqlConnection(ConnectionString))
@@ -511,65 +512,17 @@ namespace IFSAPI
         public DataTable SalesOrder_Data(int RefforderNo)
         {
             //  RefforderNo = 140490;
-            string sql = @"
-            Select * from 
-            (
-            Select 
-            RefOrderNo,'BLL1' as Site, CustomerCode as CustomerNo,'2' as SalesmanCode,
-            '0' as PayTermId,'Test By Imtiaj' as Remarks,'1003' as PartNo,DbStock,BufferStock,OrderQty,LastWeekSecSales,MtdSecondarySales,'Normal' as IndentType
-            from 
-            (
-            Select RefOrderNo, 'BLL' as Site,Main.CustomerID as CustomerNO,
-            'BLL01' as SalesMancode,main.productID,isnull(dbstock,0) as dbstock,isnull(BufferStock,0) as bufferstock,
-            isnull(Quantity,0)  as orderQty,isnull(LWSale,0) as LastweeksecSales ,isnull(MTDSecondarySales,0) as MTDSecondarySales
-            from 
-            (
-            Select a.OrderID as RefOrderNo,OrderNo,CustomerID,productid,Quantity
-            from t_SalesOrder a, t_SalesOrderDetail b
-            where a.OrderID=b.OrderID and OrderDate >='20-Jun-2022'
-            and OrderStatus=1 
-            ) as Main 
-            left outer Join 
-            (
-            --DB Current Stock
-            Select ProductID,DistributorID,isnull(CurrentStock,0) as dbstock from
-            t_DMSProductStock  
-            ) as DBST on Main .CustomerID=DBST.DistributorID and main.ProductID=DBST.ProductID
-            left Outer join 
-            (
-            --DB Buffer Stock
-            Select CustomerID,ProductID,BufferStock from t_BufferStock   
-            ) as BuffSTK on Main.CustomerID=BuffSTK.CustomerID and Main.ProductID=BuffSTK.ProductID
-            left outer join
-            (
-            --Last week Sales
-            Select DistributorID,ProductID,sum(SaleQty) as LWSale from t_DMSOrder a, t_DMSOrderItem b
-            where a.TranID=b.TranID and DeliveryDate between '16-Jun-2022' and '22-Jun-2022' and DeliveryDate <'22-Jun-2022'
-            and IsDelivered=1
-            group by DistributorID,ProductID
-            ) as WKSL on Main.CustomerID=WKSL.DistributorID and Main.ProductID=WKSL.ProductID
-            left outer join
-            (
-            --MTD Sales
-            Select DistributorID,ProductID,sum(SaleQty) as MTDSecondarySales 
-            from t_DMSOrder a, t_DMSOrderItem b
-            where a.TranID=b.TranID and DeliveryDate between DATEADD(mm, DATEDIFF(mm, 0, GETDATE()) +0, 0) and  CAST(dateadd(dd,+1, GETDATE()) AS Date)
-            and DeliveryDate < CAST(dateadd(dd,+1, GETDATE()) AS Date) and IsDelivered=1
-            group by DistributorID,ProductID
-            ) as MTD on Main.CustomerID=MTD.DistributorID and Main.ProductID=MTD.ProductID
-            ) as Final 
-            inner Join 
-            (
-            Select  CustomerID, CustomerCode from v_CustomerDetails where IsActive=1
-            ) as Cust on Final.CustomerNO=Cust.CustomerID
-            inner Join 
-            (
-            Select ProductID,ProductCode from v_ProductDetails 
-            ) as Prod on Final.ProductID=Prod.ProductID
-            ) as Main 
-            Where 
-            --RefOrderNo>" + RefforderNo + @" 
-            CustomerNo in (29100360,20711000,22000201)
+            string sql = @"Select  OrderNo as RefOrderNo,'BLL1' as Site,
+            CustomerCode CustomerNo, TerritoryID SalesmanCode,0 PayTermId,a.Remarks,ProductCode PartNo,
+            0 DbStock,0 BufferStock,isnull(Quantity + FreeQty, 0) OrderQty,0 LastWeekSecSales,0 MtdSecondarySales,
+            'Normal' IndentType
+            From t_SalesOrder a
+            join t_SalesOrderDetail b on a.OrderID = b.OrderID
+            join t_Product c on b.ProductID = c.ProductID
+            join v_CustomerDetails d on a.CustomerID = d.CustomerID
+            where
+            OrderStatus = 1 and OrderDate between '01-Dec-2022' and '20-Dec-2022' and OrderDate< '20-Dec-2022'
+            and ChannelID = 2 and(Quantity + FreeQty) > 0
             order by RefOrderNo";
             DataTable dt = new DataTable();
             using (SqlConnection con = new SqlConnection(ConnectionString))
@@ -894,7 +847,7 @@ namespace IFSAPI
             int ReffOrder = Check_LastInvoice(warehouseid);
             // Get Data From Query
             DataTable table = new DataTable();
-            table = NormalInvoice_TD(ReffOrder);
+            table = SalesOrder_Data(ReffOrder);
             // Make the Format
             var jsonString = new StringBuilder();
             if (table.Rows.Count > 0)
